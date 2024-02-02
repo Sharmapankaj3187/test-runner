@@ -3,8 +3,8 @@ name: image-builder #Builds and Pushes Image
 on: [push]
 
 env:
-  REGISTRY: sharmapankaj3784
-  IMAGE_NAME: test-arch-docker
+  REGISTRY: hub.docker.com
+  IMAGE_NAME: sharmapankaj3784/test-arch-docker
 
 jobs:
   build:
