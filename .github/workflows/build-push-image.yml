@@ -1,4 +1,4 @@
-name: image-builder
+name: image-builder #Builds and Pushes Image
 
 on: [push]
 
